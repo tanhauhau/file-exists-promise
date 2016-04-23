@@ -1,0 +1,29 @@
+{
+  "name": "file-exists-promise",
+  "version": "0.0.0",
+  "description": "fs.exists with ES6 Promise that is not deprecated",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanhauhau/file-exists-promise.git"
+  },
+  "keywords": [
+    "fs",
+    "file",
+    "exists",
+    "promise",
+    "es6-promise",
+    "async"
+  ],
+  "author": "Tan Li Hau <lhtan93@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanhauhau/file-exists-promise/issues"
+  },
+  "homepage": "https://github.com/tanhauhau/file-exists-promise#readme"
+}
