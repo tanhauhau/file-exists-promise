@@ -5,7 +5,7 @@ var exists = function(filepath){
     return new Promise(function(resolve, reject){
         fs.stat(filepath, function(err, stat){
             if(err) reject();
-            else    resolve();
+            else    resolve(stat);
         });
     });
 };

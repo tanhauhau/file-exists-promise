@@ -25,8 +25,9 @@ var fileExists = require('file-exists-promise'),
       path = require('path');
 
       fileExists(path.resolve(__dirname, './file.txt'))
-      .then(function(){
+      .then(function(stat){
           console.log('yeah it exists!');
+          console.log('and the stat of the file --> ' + stat);
       })
       .catch(function(){
           console.log('oh no... it does not exist');
